@@ -1,0 +1,17 @@
+
+
+POST http://localhost:9000/ws/ HTTP/1.1
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:book="http://mikecarr.net/books">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <book:GetBookDetailsRequest>
+         <book:id>45</book:id>
+      </book:GetBookDetailsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+###
+
+
