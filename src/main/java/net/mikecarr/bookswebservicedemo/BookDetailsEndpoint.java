@@ -1,4 +1,4 @@
-package com.example.demo;
+package net.mikecarr.bookswebservicedemo;
 
 import net.mikecarr.books.BookDetails;
 import net.mikecarr.books.GetBookDetailsRequest;

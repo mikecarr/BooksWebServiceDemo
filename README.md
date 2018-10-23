@@ -13,3 +13,25 @@ curl --request POST --url http://localhost:9000/ws/ --data '<soapenv:Envelope xm
 ```
 
 * Chrome Extension: [Wizdler](https://chrome.google.com/webstore/detail/wizdler/oebpmncolmhiapingjaagmapififiakb)
+
+### Docker
+
+* Build
+    ```console
+    $ mvn install dockerfile:build
+    ```
+
+* Push to Dockerhub
+    ```console
+    $ mvn dockerfile:push
+    ```
+    
+* Run
+    ```console
+    $ docker run -p 8080:9000 -t mcarr/books-webservice-demo
+ 
+    ```
+
+## References
+* [Spring Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)    
+    

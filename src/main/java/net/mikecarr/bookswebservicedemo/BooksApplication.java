@@ -1,12 +1,12 @@
-package com.example.demo;
+package net.mikecarr.bookswebservicedemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class BooksApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(BooksApplication.class, args);
     }
 }
